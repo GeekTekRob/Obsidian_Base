@@ -1,0 +1,9 @@
+div#iframe_container { 
+overflow-x:hidden; 
+overflow-y:scroll; 
+}
+
+iframe {
+overflow-x:hidden; 
+overflow-y:scroll; 
+}
