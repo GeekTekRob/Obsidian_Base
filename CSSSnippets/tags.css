@@ -1,0 +1,135 @@
+	/* Base Tags */
+	.cm-s-obsidian span.cm-hashtag-begin,
+	.cm-s-obsidian span.cm-hashtag,
+	.cm-s-obsidian span.cm-hashtag-end,
+	a.tag {
+	    background-color: #5D3FD3;
+	    color: #FFFFFF;
+	    font-family: inherit;
+		font-weight: bold;
+	    padding: 2px 0px;
+	    text-decoration: none;
+	}
+	
+	.cm-s-obsidian span.cm-hashtag-begin {
+	    border-radius: 1em 0px 0px 1em;
+	    padding-left: 5px;
+	}
+	
+	.cm-s-obsidian span.cm-hashtag-end {
+	    border-radius: 0px 1em 1em 0px;
+	    padding-right: 5px;
+	}
+	
+	a.tag {
+	    border-radius: 1em;
+	    padding: 5px 8px;
+	}
+	
+	a.tag:hover {
+	color: #5D3FD3;
+	background-color: #FFFFFF;
+	}
+	
+	/* OBSIDIAN */
+	a.tag[href^="#obsidian"] {
+	  background-color: #4d3ca6;
+	}
+
+	/* Important */
+	a.tag[href^="#important"] {
+	  	background-color: #FF0000;
+		color: #FFFFFF;
+	}
+	a.tag[href^="#important"]:hover {
+	  	background-color: #FFFFFF;
+		color: #FF0000;
+	}
+
+	/* Complete */
+	a.tag[href^="#complete"] {
+	  background-color: green;
+	}
+	
+	/* InProgess */
+	a.tag[href^="#inprogress"] {
+	  background-color: orange;
+	}
+
+	/** PERSONAL CUSTOMIZED TAGS **/
+
+	/** SOCIAL MEDIA**/
+
+	/* Youtube */
+	.tag[href^="#Youtube"] {
+	  	background-color: #FF0000;
+		color: #FFFFFF;
+	}
+	a.tag[href^="#Youtube"]:hover {
+	  	background-color: #FFFFFF;
+		color: #FF0000;
+	}
+	
+	/* Twitter */
+	a.tag[href^="#Twitter"] {
+	  	background-color: #1DA1F2;
+		color: #FFFFFF;
+	}
+	a.tag[href^="#Twitter"]:hover {
+	  	background-color: #FFFFFF;
+		color: #1DA1F2;
+	}
+
+	/** CODING LANGUAGES **/
+
+	/* CSS */
+	a.tag[href^="#CSS"] {
+	  	background-color: #7FFFD4;
+		color: #5a5a5a;
+	}
+	a.tag[href^="#CSS"]:hover {
+	  	background-color: #5a5a5a;
+		color: #7FFFD4;
+	}
+
+	/* SQL */
+	a.tag[href^="#SQL"] {
+	  	background-color: #F29111;
+		color: #FFFFFF;
+	}
+	a.tag[href^="#CSS"]:hover {
+	  	background-color: #FFFFFF;
+		color: #F29111;
+	}
+
+	/** GAMING SYSTEMS **/
+
+	/* PS5 */
+	.tag[href^="#PS5"] {
+	  	background-color: #006FCD;
+		color: #FFFFFF;
+	}
+	a.tag[href^="#PS5"]:hover {
+	  	background-color: #FFFFFF;
+		color: #006FCD;
+	}
+	
+	/* Switch */
+	.tag[href^="#Switch"] {
+	  	background-color: #e60012;
+		color: #FFFFFF;
+	}
+	a.tag[href^="#Switch"]:hover {
+	  	background-color: #FFFFFF;
+		color: #e60012;
+	}
+	
+	/* Xbox */
+	.tag[href^="#Xbox"] {
+	  	background-color: #107C10;
+		color: #FFFFFF;
+	}
+	a.tag[href^="#Xbox"]:hover {
+	  	background-color: #FFFFFF;
+		color: #107C10;
+	}

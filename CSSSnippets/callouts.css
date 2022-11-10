@@ -1,0 +1,22 @@
+.callout[data-callout="qotd"] {
+    --callout-color: 142, 68, 173;
+    --callout-icon: quote;
+}
+
+.callout[data-callout="example-type"] {
+    --callout-color: 0, 0, 0;
+    --callout-icon: icon-id;
+    --callout-icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>';
+}
+
+body{
+	--callout-min-width: 200px;
+	--callout-gap: 0.5rem;
+	--callout-margin: 5px;
+	--list-min-width: 200px;
+	--col-rule-color: #b3b3b3;
+	--col-rule-width: 1px;
+	--float-small-width: 300px;
+	--float-medium-width: 400px;
+	--float-large-width: 600px;
+}
